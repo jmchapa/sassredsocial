@@ -1,0 +1,44 @@
+.sectionuno {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sectionuno h2 {
+    font-size: 58px;
+    text-transform: capitalize; }
+  .sectionuno ul li {
+    list-style: none; }
+    .sectionuno ul li span {
+      display: inline-block;
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      margin-right: 30px;
+      transition: 0.5s; }
+      .sectionuno ul li span:hover {
+        transform: scale(1.2); }
+      .sectionuno ul li span.c1 {
+        background: #365396; }
+        .sectionuno ul li span.c1:hover {
+          background: #1b294b; }
+      .sectionuno ul li span.c2 {
+        background: #00a8f0; }
+        .sectionuno ul li span.c2:hover {
+          background: #00608a; }
+      .sectionuno ul li span.c3 {
+        background: #006eb3; }
+        .sectionuno ul li span.c3:hover {
+          background: #002f4d; }
+      .sectionuno ul li span.c4 {
+        background: #e0462e; }
+        .sectionuno ul li span.c4:hover {
+          background: #922616; }
+      .sectionuno ul li span.c5 {
+        background: #cc1919; }
+        .sectionuno ul li span.c5:hover {
+          background: #710e0e; }
+      .sectionuno ul li span a i {
+        color: white;
+        font-size: 78px;
+        margin: 48px 52px; }
+
+/*# sourceMappingURL=style.css.map */

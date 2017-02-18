@@ -1,0 +1,71 @@
+@import "variables";
+$lado:170px;
+$radio: 50%;
+$tamano:58px;
+$blanca:white;
+$ladodos:150px;
+
+.sectionuno{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h2{
+		font-size: $tamano;
+		text-transform: capitalize;	
+	}
+	ul{
+		li{
+			list-style: none;
+			span{
+				display: inline-block;
+				width: $lado;
+				height: $lado;
+				border-radius: $radio;
+				margin-right: 30px;
+				transition: 0.5s;
+				&:hover{
+						transform: scale(1.2);
+					}
+
+				&.c1{
+					background: $facebook_color;	
+					&:hover{
+						background: darken($facebook_color, 20%);
+						}
+					}
+				&.c2{
+					background: $twitter_color;
+					&:hover{
+						background: darken($twitter_color, 20%);
+						}
+				}
+				&.c3{
+					background: $linkedin_color;
+					&:hover{
+						background: darken($linkedin_color, 20%);
+						}
+				}
+				&.c4{
+					background: $google_plus_color;
+					&:hover{
+						background: darken($google_plus_color, 20%);
+						}
+				}
+				&.c5{
+					background: $pinterest_color;
+					&:hover{
+						background: darken($pinterest_color, 20%);
+						}
+				}
+				a{	
+					i{
+						color: $blanca; 
+						font-size: 78px;
+    					margin: 48px 52px;
+					}
+
+				}
+			}
+		}
+	}
+}
